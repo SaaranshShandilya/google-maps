@@ -92,16 +92,7 @@ const Map = () => {
     }
 
     <Routing sourceCity={[lat, long]} destinationCity={dest}></Routing>
-      {/* <Marker 
-      position={[lat,long]}
-      draggable={true}
-      animate={true}
-      >
-        <Popup>
-          Hey ! you found me
-        </Popup>
-        <Routing sourceCity={[lat, long]} ></Routing>
-      </Marker> */}
+      
     </MapContainer>
     }
     </div>
